@@ -4,7 +4,7 @@ import ElementosLista from './ElementosLista'
 
 export class RenderCondicional extends Component {
     render() {
-        console.log(data)
+        //console.log(data)
         return (
             <div>
                 <ul>
