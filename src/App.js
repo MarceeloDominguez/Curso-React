@@ -5,6 +5,7 @@ import CicloDeVida from "./Components/CicloDeVida";
 import OffOnConHooks from "./Components/ContadorHooks";
 //import ContadorHooks from "./Components/ContadorHooks";
 import Eventos from "./Components/Eventos";
+import HooksPersonalizados from "./Components/HooksPersonalizados";
 import OffOn from "./Components/OffOn";
 import RelojHooks from "./Components/RelojHooks";
 import RenderCondicional from "./Components/RenderCondicional";
@@ -37,6 +38,8 @@ class App extends Component {
         <hr/>
         <AjaxHooks/>
         <br/>
+        <hr/>
+        <HooksPersonalizados/>
       </div>
     );
   }
