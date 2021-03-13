@@ -22,7 +22,7 @@ function Pokemon(props) {
     const { name, avatar } = props
     return (
         <figure>
-            <img src={avatar} all={name} />
+            <img src={avatar} alt={name} />
             <figcaption>{name}</figcaption>
         </figure>
     )
