@@ -7,6 +7,7 @@ import OffOnConHooks from "./Components/ContadorHooks";
 import Eventos from "./Components/Eventos";
 import HooksPersonalizados from "./Components/HooksPersonalizados";
 import OffOn from "./Components/OffOn";
+import Referencias from "./Components/Referencias";
 import RelojHooks from "./Components/RelojHooks";
 import RenderCondicional from "./Components/RenderCondicional";
 
@@ -40,6 +41,12 @@ class App extends Component {
         <br/>
         <hr/>
         <HooksPersonalizados/>
+        <br/>
+        <hr/>
+        <Referencias/>
+        <br/>
+        <br/>
+        <br/>
       </div>
     );
   }
